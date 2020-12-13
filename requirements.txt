@@ -1,0 +1,6 @@
+colorama
+pydash
+emoji
+requests
+argparse
+aiohttp

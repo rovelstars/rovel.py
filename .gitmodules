@@ -1,0 +1,18 @@
+[submodule "emoji"]
+	path = emoji
+	url = https://github.com/carpedm20/emoji/
+[submodule "colorama"]
+	path = colorama
+	url = https://github.com/tartley/colorama
+[submodule "pydash"]
+	path = pydash
+	url = https://github.com/dgilland/pydash
+[submodule "rovel/extra/colorama"]
+	path = rovel/extra/colorama
+	url = https://github.com/tartley/colorama
+[submodule "rovel/extra/pydash"]
+	path = rovel/extra/pydash
+	url = https://github.com/dgilland/pydash
+[submodule "rovel/extra/emoji"]
+	path = rovel/extra/emoji
+	url = https://github.com/carpedm20/emoji/
