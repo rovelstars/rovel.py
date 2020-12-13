@@ -19,5 +19,5 @@ setup(
         "aiohttp"
     ],
     keywords="rovel.py",
-    long_description_content_type="markdown"
+    long_description_content_type="text/markdown"
 )
