@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 setup(
     name="rovel.py",
     version="0.0.1",
-    description="",
+    description="rovel.js but it's Python",
     license="MIT",
     long_description=long_description,
     author="Dan23123",
@@ -18,5 +18,6 @@ setup(
         "argparse",
         "aiohttp"
     ],
-    license="MIT"
+    keywords="rovel.py",
+    long_description_content_type="markdown"
 )
