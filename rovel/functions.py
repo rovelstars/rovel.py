@@ -3,7 +3,7 @@ import requests
 BASE_URL = "https://rovelapi.glitch.me"
 
 def post_guild_stats(bot_id, token, guild):
-    return requests.post(f"https://dbots.co/api/v1/bots/{bot_id}/stats", headers={
+    return requests.post(f"https://bots.rovelstars.ga/api/v1/bots/{bot_id}/stats", headers={
         "Authorization": token,
         "Content-Type": "application/json"
     })
