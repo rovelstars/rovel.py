@@ -8,14 +8,14 @@ pip install rovel.py
 python -m pip install rovel.py
 ```
 
-## Usage:
+## Usage
 ```py
-from rolve.api_npm import *
+from rovel import *
 
-print(get_details("rolve.js"))
+print(api_npm.get_details("rolve.js"))
 ```
 
-## List of packages:
+## List of packages
 - colorama
 - approx
 - emoji
