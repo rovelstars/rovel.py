@@ -9,15 +9,15 @@ def post_guild_stats(bot_id, token, guild):
     })
 
 def chat(user_id, message):
-    return requests.get(BASE_URL + f"/chat?user={user_id}&msg={message}").content
+    return requests.get(BASE_URL + f"/chat?user={user_id}&msg={message}").text
 
 def base():
-    return requests.get(BASE_URL).content
+    return requests.get(BASE_URL).text
 
 def download(url, dest):
-	resp = requests.get(url)
-	if resp.ok:
-		with open(dest, "x") as f:
-			f.write(resp.text)
-	else:
-		raise Exception(f"Server responded with {resp.status_code}: {resp.content}")
+    resp = requests.get(url)
+    if resp.ok:
+        with open(dest, "x") as f:
+            f.write(resp.text)
+    else:
+        raise Exception(f"Server responded with {resp.status_code}: {resp.content}")

@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="rovel.py",
-    version="0.0.1",
+    version="0.0.2",
     description="rovel.js but it's Python",
     license="MIT",
     long_description=long_description,
